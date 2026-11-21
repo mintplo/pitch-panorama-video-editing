@@ -4,6 +4,10 @@
 !/.gitignore
 !/README.md
 !/AGENTS.md
+!/examples/
+!/examples/panorama.jpg
+!/examples/panorama.mp4
+!/examples/ball-follow.mp4
 !/.agents/
 !/.agents/skills/
 !/.agents/skills/pitch-panorama-video-editing/
