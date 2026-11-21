@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "date": null,
+  "venue": null,
+  "match_type_or_opponent": null,
+  "style_reference": "football-smooth-v1",
+  "source_directory": null,
+  "source_directories": [],
+  "source_pairing": {
+    "inventory": [],
+    "assessments": []
+  },
+  "quarters": [
+    {
+      "quarter": null,
+      "panorama_source": null,
+      "left_source": null,
+      "right_source": null,
+      "rotation_verified": false,
+      "source_integrity": "pending",
+      "trim_start_seconds": null,
+      "trim_end_seconds": null,
+      "trim_timebase": "untrimmed stitched panorama",
+      "trim_evidence": null,
+      "sync_offset_seconds": null,
+      "sync_drift": null,
+      "render_config": null,
+      "ball_review": null,
+      "approved_crop_path": null,
+      "qa": {
+        "ball_identity": "pending",
+        "geometry": "pending",
+        "motion": "pending",
+        "full_ball_edges": "pending",
+        "restart_timing": "pending",
+        "full_av_decode": "pending",
+        "audio_sync": "pending"
+      },
+      "remaining_limitations": [],
+      "output": null
+    }
+  ],
+  "excluded_sources": [],
+  "status": "unstarted",
+  "notes": [
+    "Record the observed start and end of play. Calibrate camera pairs when stitching raw footage."
+  ],
+  "team_name": null,
+  "team_profile": null,
+  "hashtags": []
+}

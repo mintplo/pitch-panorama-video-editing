@@ -1,0 +1,6 @@
+일자: {YYYY}년 {MM}월 {DD}일
+장소: {확인된 경기장 이름}
+경기: {확인된 경기 형태 또는 상대팀}
+영상: {segment_label}
+
+{team_hashtag} {sport_hashtag} {match_hashtags}
