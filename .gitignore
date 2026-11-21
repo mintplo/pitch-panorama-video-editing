@@ -1,0 +1,25 @@
+# Publish individually reviewed paths. A new job script, capture, profile or
+# sidecar must stay local even when saved next to a public file.
+*
+!/.gitignore
+!/README.md
+!/AGENTS.md
+!/.agents/
+!/.agents/skills/
+!/.agents/skills/pitch-panorama-video-editing/
+!/.agents/skills/pitch-panorama-video-editing/SKILL.md
+!/panorama/
+!/panorama/WORKFLOW.md
+!/panorama/FOOTBALL_WORKFLOW.md
+!/panorama/presets/
+!/panorama/presets/default.json
+!/panorama/profiles/
+!/panorama/profiles/football.json
+!/panorama/templates/
+!/panorama/templates/job.json
+!/panorama/templates/match.json
+!/panorama/templates/video-description.txt
+!/panorama/templates/youtube-description.txt
+!/panorama/tools/
+!/panorama/tools/stitch_frames.py
+!/panorama/tools/verify_audio.py
