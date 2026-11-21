@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "job_id": null,
+  "date": null,
+  "event_name": null,
+  "team_name": null,
+  "venue": null,
+  "profile": null,
+  "source_directory": null,
+  "source_directories": [],
+  "source_pairing": {
+    "inventory": [],
+    "assessments": []
+  },
+  "cameras": [],
+  "source_integrity": "pending",
+  "overlap_assessment": "pending",
+  "stitch_feasibility": "pending",
+  "output": {
+    "mode": null,
+    "width": null,
+    "height": null,
+    "fps": null,
+    "edge_policy": null,
+    "segments": [],
+    "audio_source": null
+  },
+  "sync_config": null,
+  "projection_config": null,
+  "subject_review": null,
+  "crop_path": null,
+  "qa": {
+    "geometry": "pending",
+    "time_alignment": "pending",
+    "seam_alignment": "pending",
+    "motion_if_tracking": "pending",
+    "subject_edges_if_tracking": "pending",
+    "full_av_decode": "pending",
+    "audio_sync": "pending"
+  },
+  "excluded_sources": [],
+  "remaining_limitations": [],
+  "output_files": [],
+  "status": "unstarted",
+  "notes": [
+    "Select full panorama or subject-following edit from the request.",
+    "Do not assume football, quarter boundaries, or a team name for general footage."
+  ]
+}

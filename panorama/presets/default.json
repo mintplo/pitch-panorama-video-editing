@@ -1,0 +1,54 @@
+{
+  "id": "panorama-default-v1",
+  "name": "Pitch Panorama Video Editing",
+  "purpose": "Team-independent workflow specification; existing legacy scripts do not load this file automatically.",
+  "scope": [
+    "multi_camera_stitching",
+    "tracking_from_existing_panorama",
+    "full_panorama",
+    "optional_subject_tracking"
+  ],
+  "known_validated_implementation": {
+    "camera_count": 2,
+    "use_case": "football",
+    "additional_inputs_require_analysis_and_possible_adaptation": true
+  },
+  "output": {
+    "mode": null,
+    "width": null,
+    "height": null,
+    "fps": null,
+    "segment_strategy": "per_job",
+    "source_audio": true,
+    "edge_policy": "per_job",
+    "overlays": []
+  },
+  "metadata": {
+    "team_name": null,
+    "event_name": null,
+    "date": null,
+    "venue": null,
+    "hashtags": []
+  },
+  "camera": {
+    "recompute_sync_and_projection_per_capture": true,
+    "reuse_existing_panorama_for_tracking": true,
+    "smooth_pan_and_zoom_when_tracking": true,
+    "track_observed_subject": true,
+    "record_occlusion_and_source_limits": true
+  },
+  "qa": [
+    "source_integrity",
+    "time_alignment",
+    "seam_alignment",
+    "source_coverage",
+    "full_av_decode",
+    "audio_sync",
+    "output_spec",
+    "motion_and_subject_edges_if_tracking"
+  ],
+  "profiles": {
+    "football": "panorama/profiles/football.json"
+  },
+  "note": "Camera synchronization and projection apply when stitching camera originals. Choose output fields from the request and footage; apply football crops and quarter trims only to football edits."
+}
