@@ -18,10 +18,13 @@
   },
   "camera": {
     "target": "ball",
-    "continuous_pan_and_zoom": true,
+    "continuous_pan_and_zoom": false,
+    "framing": "fixed_wide",
+    "pan_when": "confirmed_play_approaches_margin",
+    "hold_when": "play_fits_current_frame",
     "follow_fast_passes_promptly": true,
     "pre_pan_before_release": false,
-    "temporary_zoom_out_for_edges": true,
+    "temporary_zoom_out_for_edges": false,
     "check_full_ball_bbox": true,
     "reset_each_quarter": true
   },
